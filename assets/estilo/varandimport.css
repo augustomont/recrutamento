@@ -1,0 +1,22 @@
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* Variáveis */
+
+:root{
+    --colorTitulo: black;
+    --colorMenu: aliceblue;
+    --colorTexto: black;
+    --fundoCabecalho: rgba(0, 119, 255, 0.267);
+    --fundoMenu: blue;
+    --fundoMenuItens: rgb(4, 0, 255);
+    --fundoPagina: rgb(230, 230, 254);
+    --fundoButtonHover: rgb(11, 11, 145);
+    --fontTitulo: 'Times New Roman', Times, serif;
+    --fontMenu: 'Times New Roman', Times, serif;
+    --fontTexto: 'Times New Roman', Times, serif;
+    --tamanhoTituloH1: 3em;
+    --tamanhoTituloH2: 2em;
+    --sombras: 0px 0px 10px rgba(0, 0, 0, 0.311);
+}
