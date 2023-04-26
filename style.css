@@ -1,0 +1,23 @@
+
+:root{
+    --colorTitulo: black;
+    --colorMenu: aliceblue;
+    --colorTexto: black;
+    --fundoCabecalho: rgba(0, 119, 255, 0.267);
+    --fundoMenu: blue;
+}
+
+body{
+
+}
+header{
+    background-color: var(--fundoCabecalho);
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
