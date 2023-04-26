@@ -11,13 +11,15 @@
     --colorTexto: black;
     --fundoCabecalho: rgba(0, 119, 255, 0.267);
     --fundoMenu: blue;
-    --fundoMenuItens: blue;
+    --fundoMenuItens: rgb(4, 0, 255);
     --fundoPagina: rgb(230, 230, 254);
+    --fundoButtonHover: rgb(11, 11, 145);
     --fontTitulo: 'Times New Roman', Times, serif;
     --fontMenu: 'Times New Roman', Times, serif;
     --fontTexto: 'Times New Roman', Times, serif;
     --tamanhoTituloH1: 3em;
     --tamanhoTituloH2: 2em;
+    --sombras: 0px 0px 10px rgba(0, 0, 0, 0.311);
 }
 
 body{
@@ -41,17 +43,38 @@ h2{
 #menu{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     background-color: var(--fundoMenu);
     color: var(--colorMenu);
     font-family: var(--fontMenu);
-    
+    height: 1.55rem;
+}
+#menu:hover{
+    font-size: larger;
+    transition-duration: 400ms;
+}
+li{
+    box-shadow: var(--sombras);
+    text-shadow: var(--sombras);
+}
+li:hover{
+    color: var(--colorTitulo);
+    font-size: 1.1em;
 }
 li a{
     color: var(--colorMenu);
     background-color: var(--fundoMenuItens);
+    border-radius: 10px;
+    padding: 0.2rem;
 }
-
+li a:hover{
+    background-color: var(--fundoButtonHover);
+    color: var(--colorMenu);
+    padding: 5%;
+    border-radius: 10px;
+    transition-duration: 200ms;
+}
 article{
     background-color: var(--fundoPagina);
 }
