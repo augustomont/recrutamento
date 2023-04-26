@@ -31,7 +31,7 @@ h2{
 }
 #menu:hover{
     font-size: larger;
-    transition-duration: 400ms;
+    transition: 0.3s ease-in-out;
 }
 li{
     box-shadow: var(--sombras);
@@ -52,7 +52,7 @@ li a:hover{
     color: var(--colorMenu);
     padding: 5%;
     border-radius: 10px;
-    transition-duration: 200ms;
+    transition: 0.3s ease-in-out;
 }
 article{
     background-color: var(--fundoPagina);
